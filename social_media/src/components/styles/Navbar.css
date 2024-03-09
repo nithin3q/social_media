@@ -1,0 +1,70 @@
+.box {
+  width: 380px;
+  height: 45px;
+  background-color: rgb(237, 237, 235);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding: 19px;
+  margin: 0 190px;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.box > span {
+  font-size: 18px;
+  color: #777;
+}
+
+div span {
+  color: rgb(43, 0, 255);
+  font-weight: 500;
+}
+
+.box > input {
+  flex: 1;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding: 15px;
+  font-weight: 500;
+}
+
+div li {
+  font-weight: 500;
+}
+
+nav {
+  height: 73px;
+  padding-top: 0px !important;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .box {
+    display: none; /* Hide input on smaller screens */
+  }
+
+  nav {
+    display: none; /* Hide navbar on mobile devices */
+  }
+}
+
+@media (max-width: 1400px) {
+  .box {
+    margin: 0px;
+  }
+}
+
+.kims{
+  position: fixed;
+  top: 10%;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}

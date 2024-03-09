@@ -1,0 +1,120 @@
+.custom-modal {
+  max-width: 750px !important;
+  margin: auto; /* Center the modal horizontally */
+}
+
+
+.login-container {
+  display: flex !important;
+  width: 100%; /* Set the width to 100% */
+  height: 100%;
+}
+
+.login-left {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff;
+}
+.login-left h3{
+  margin-bottom: 20px;
+}
+.login-right {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff;
+}
+.modal-title{
+  font-size: 15px !important;
+  color: #036e0a !important;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.pass-input-div {
+  position: relative;
+}
+
+.pass-input-div svg {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.login-left-buttons button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login-left-buttons button img {
+  margin-right: 10px;
+}
+.login-left-options{
+  margin-top: 20px;
+  
+  
+}
+.login-right-options {
+  position: relative;
+  margin-top: 20px; /* Adjusted margin-top value */
+  font-size: 10px;
+}
+/* Style for the forgot password link */
+.forgot-pass-link {
+  color: #000000;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.forgot-pass-link:hover {
+  text-decoration: underline;
+}
+
+/* Style for the right section */
+.login-right {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.login-right-logo {
+  width: 100%;
+  margin-top: 20px;
+}
+ 
+.login-right-options {
+  margin-top: 20px;
+  font-size: 10px;
+}
+
+
+.login-right-p {
+  margin-top: 00px;
+  margin-right: -50px;
+  font-size: 14px;
+}
+
+

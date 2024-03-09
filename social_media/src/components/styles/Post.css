@@ -1,0 +1,40 @@
+.post {
+    width: 700px !important;
+    margin: 30px 40px 50px 40px;
+  }
+
+.post__headerAuthor {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+  }
+  
+  .nithins{
+    margin-left: auto !important;
+  }
+  .options-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    white-space: nowrap;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 10px 0px 10px;
+    margin: -30px 0px 0px 0px;
+    z-index: 1;
+    border-radius: 5px;
+  }
+  
+  .options-box ul {
+    margin: 5px 10px;
+    list-style: none;
+    padding-left: 0; /* Remove negative value and adjust as needed */
+  }
+  .options-box  li{
+    cursor: pointer;
+    padding-bottom: 7px;
+    font-size: 15px;
+  }
